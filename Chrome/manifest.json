@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Quote to WP",
+  "author": "Shinichi ARATA",
+  "description": "Wordpress用に引用リンクを作成する拡張機能です",
+  "version": "0.1.1",
+  "permissions":[
+    "contextMenus",
+    "clipboardWrite",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "image/icon16.png",
+    "64": "image/icon64.png",
+    "128": "image/icon128.png"
+  }
+}
